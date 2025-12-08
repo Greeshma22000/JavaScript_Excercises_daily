@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+      body {
+        font-family: "Itim", cursive;
+      }
+    </style>
+    <title>Finavise Dashboard</title>
+</head>
+<body class="bg-gray-900 text-gray-100 overflow-x-clip">
+    <header class="p-4 flex justify-between items-center">
+        <div class="flex items-center gap-2">
+            <button 
+                id="menuButton"
+                class="text-gray-100 text-3xl lg:hidden hover:text-gray-400"
+            >
+                <i class="bx bx-menu"></i>
+            </button>
+            <div class="flex items-center gap-2 text-teal-400 cursor-pointer">
+                <i class="bx bx-infinite text-3xl"></i>
+                <span class="text-xl font-semibold">Finavise</span>
+            </div>
+        </div>
+        <div class="flex items-center">
+            <div class="relative hidden lg:flex w-[500px]">
+                <input 
+                    type="text" 
+                    placeholder="Search..." 
+                    class="w-full py-2 pl-10 pr-4 bg-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                >
+                <i class="bx bx-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+            </div>
+        </div>
+        <div class="flex items-center gap-2">
+            <span class="text-gray-300 font-medium">John Doe</span>
+            <img 
+                src="../src/user.png" 
+                alt="User Avatar"
+                class="w-10 h-10 rounded-full border border-gray-600"
+            >
+        </div>
+    </header>
+</body>
+</html>
