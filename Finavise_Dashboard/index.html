@@ -135,17 +135,20 @@
                     </div>
                 </div>
 
-                <div>
-                    <div>
+                <div class="bg-gray-700 p-5 rounded-md overflow-hidden">
+                    <div class="flex items-center justify-between mb-4">
                         <i class="bx bx-wallet text-teal-400 text-2xl"></i>
-                        <h2>Available</h2>
+                        <h2 class="text-lg font-semibold text-gray-100">Available</h2>
                     </div>
-                    <div>
-                        <canvas id="availableBalanceChart"></canvas>
+                    <div class="flex justify-center px-10 overflow-hidden">
+                        <canvas id="availableBalanceChart" class="w-20 md:w-32 lg:w-40"></canvas>
                     </div>
                 </div>
             </section>
         </main>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
