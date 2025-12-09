@@ -34,3 +34,20 @@ new Chart(revenueCtx, {
         plugins: {legend: {labels: {color: "#e5e7eb"}}},
     },
 });
+
+const balanceCtx = document.getElementById("availableBalanceChart").getContext("2d");
+new Chart(balanceCtx, {
+    type: "pie",
+    data: {
+        datasets: [
+            {
+                data: [3500, 5000],
+                backgroundColor: ["#1f2937", "#14b8a6"],
+            },
+        ],
+    },
+    options: {
+        responsive: true,
+        plugins: {legend: {labels: {color: "#e5e7eb"}}},
+    },
+});
