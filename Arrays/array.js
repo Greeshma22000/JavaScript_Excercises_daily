@@ -15,3 +15,6 @@ console.log(filledArray);
 
 let filledArray2 = Array(5).fill("ram");
 console.log(filledArray2);
+
+let ofArray = Array.of("of", "Ram", "Shayam");
+console.log(ofArray);
