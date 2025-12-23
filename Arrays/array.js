@@ -35,3 +35,7 @@ console.log(sparseArray2);
 
 let ofArrayplus = ["Plus", ...ofArray];
 console.log(ofArrayplus);
+
+let dynamicArray = [12, "Shayam", {name: "shayam"}];
+console.log(dynamicArray);
+console.log(dynamicArray[0]);
