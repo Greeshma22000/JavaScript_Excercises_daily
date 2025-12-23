@@ -18,3 +18,6 @@ console.log(filledArray2);
 
 let ofArray = Array.of("of", "Ram", "Shayam");
 console.log(ofArray);
+
+let fromArray = Array.from("Hello");
+console.log(fromArray);
