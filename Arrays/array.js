@@ -9,3 +9,6 @@ console.log(arrayConstructor);
 
 let arrayConstructor2 = new Array("Ram", "Shayam");
 console.log(arrayConstructor2);
+
+let filledArray = Array(5).fill(0);
+console.log(filledArray);
