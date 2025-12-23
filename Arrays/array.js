@@ -39,3 +39,12 @@ console.log(ofArrayplus);
 let dynamicArray = [12, "Shayam", {name: "shayam"}];
 console.log(dynamicArray);
 console.log(dynamicArray[0]);
+
+
+let fruits = ['mango', 'banana', 'apple'];
+let fruit1 = fruits[0];
+let fruit2 = fruits[1];
+let fruit3 = fruits[2];
+console.log(fruit1, fruit2, fruit3);
+let [fruit11, fruit22, fruit33] = fruits;
+console.log(fruit11, fruit22, fruit33); 
