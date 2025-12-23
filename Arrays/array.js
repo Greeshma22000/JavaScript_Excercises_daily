@@ -12,3 +12,6 @@ console.log(arrayConstructor2);
 
 let filledArray = Array(5).fill(0);
 console.log(filledArray);
+
+let filledArray2 = Array(5).fill("ram");
+console.log(filledArray2);
