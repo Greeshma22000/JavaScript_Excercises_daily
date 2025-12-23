@@ -21,3 +21,9 @@ console.log(ofArray);
 
 let fromArray = Array.from("Hello");
 console.log(fromArray);
+
+let sparseArray = [4, , 6];
+console.log(sparseArray);
+
+let sparseArray2 = [4, , , ,7];
+console.log(sparseArray2);
