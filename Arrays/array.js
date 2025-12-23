@@ -32,3 +32,6 @@ console.log(sparseArray2);
 sparseArray2[2] = 12;
 sparseArray2[3] = 13;
 console.log(sparseArray2);
+
+let ofArrayplus = ["Plus", ...ofArray];
+console.log(ofArrayplus);
