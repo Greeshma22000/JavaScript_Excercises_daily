@@ -24,6 +24,11 @@ console.log(fromArray);
 
 let sparseArray = [4, , 6];
 console.log(sparseArray);
+sparseArray[1] = 18;
+console.log(sparseArray);
 
 let sparseArray2 = [4, , , ,7];
+console.log(sparseArray2);
+sparseArray2[2] = 12;
+sparseArray2[3] = 13;
 console.log(sparseArray2);
